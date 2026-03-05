@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* Container centralizado */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Formulário */
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  padding: 35px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.form-login label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-login input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.form-login input:focus {
+  outline: none;
+  border-color: black;
+}
+
+/* Botões */
+.button {
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+.button-entrar {
+  background: black;
+  color: white;
+}
+
+.button-entrar:hover {
+  background: #333;
+}
+
+.button-cadastrar {
+  background: #e5e5e5;
+}
+
+.button-cadastrar:hover {
+  background: #d4d4d4;
+}
+
+/* Títulos */
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
